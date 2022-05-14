@@ -39,7 +39,7 @@ Uv q: 0.000244141 bits: 12
 Face bpv; 3.04262
 TOT M faces: 0.000428 in: 0ms, inf MT/s
 
-5. Creazione della cartella "Plugins" in cui inserire "cortocodec_unity.dll" (saranno necessari le altre versioni (linux, macosx, etc..) per renderlo cross-platform
+5. Creazione della cartella "Plugins" in cui inserire "cortocodec_unity.dll" (saranno necessari le altre versioni (linux, macosx, etc..) per renderlo cross-platform)
 6. Creazione cartella "StreamingAssets" dove inserire i file .corto
-7. Modifica degli script originali che usavano Resource.Load di Unity e nelle nuove versioni con caricavano i diversi file .corto, abbiamo preferito usare appunto "Streaming Assets" e fare una piccola modifica: https://github.com/Vytek/UnityCortoSDKTest
+7. Modifica degli script originali che usavano Resource.Load di Unity e nelle nuove versioni con caricavano i diversi file .corto, abbiamo preferito usare appunto "Streaming Assets" e fare una piccola modifica: https://github.com/Vytek/UnityCortoSDKTest/blob/762eaa168f3b1f568d8a12b0ff9c25094d4e2b4b/Assets/Scripts/CortoMeshLoader.cs#L14
 8. In futuro stiamo studiando come create a runtime il materiale e la texture associata!

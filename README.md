@@ -17,6 +17,7 @@ Per l'utilizzo abbiamo seguito questi passi:
 3. Compilazione delle librerie libcorto, utility e decoder per Unity
 4. Tramite KenShape abbiamo creato tre semplici mesh 3D poi compresse con l'utility corto
 
+```
 Esempio:
 
  ./corto -o bottle-potion-texture.corto .\bottle-potion-texture.obj
@@ -38,6 +39,7 @@ Uv q: 0.000244141 bits: 12
 
 Face bpv; 3.04262
 TOT M faces: 0.000428 in: 0ms, inf MT/s
+```
 
 5. Creazione della cartella "Plugins" in cui inserire "cortocodec_unity.dll" (saranno necessari le altre versioni (linux, macosx, etc..) per renderlo cross-platform)
 6. Creazione cartella "StreamingAssets" dove inserire i file .corto

@@ -83,3 +83,7 @@ Collegamenti utili per lo sviluppo futuro:
 - https://github.com/prajwalshettydev/SnapObjLoader
 - https://web.archive.org/web/20191229013646/http://wiki.unity3d.com/index.php/ObjImporter
 - https://web.archive.org/web/20190728143516/http://wiki.unity3d.com/index.php/FastObjImporter
+
+All models created by:
+
+https://kenney.itch.io/kenney-shape

@@ -1,8 +1,20 @@
 # UnityCortoSDKTest
 Unity Corto SDK Test Repo
 
+Unity 2019.4.x Windows, Mac, Linux
+
 Built from '2019.4/staging' branch; Version is '2019.4.28f1 (1381962e9d08) revision 1278358'; Using compiler version '191627012'
 OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'it' Physical Memory: 16259 MB
+
+Unity Editor version:    2019.4.38f1 (fdbb7325fa47)
+Branch:                  2019.4/staging
+Build type:              Debug
+Batch mode:              NO
+macOS version:           Version 10.13.6 (Build 17G14042)
+Darwin version:          17.7.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 
 ITA:
 

@@ -14,7 +14,7 @@ namespace Corto
             var PathAllFile = Path.Combine(Application.streamingAssetsPath, assetName);
             byte[] encodedData = File.ReadAllBytes(PathAllFile);
 
-            if (encodedData == null && encodedData.Length > 0)
+            if (encodedData == null)
             {
                 Debug.LogWarning("Didn't load file !");
                 return -1;

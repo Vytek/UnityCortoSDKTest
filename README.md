@@ -69,7 +69,7 @@ For use we followed these steps:
 1. Download and install CMake: https://cmake.org/download/
 2. Configuration for the generation of the solution (in this case Window for Visual Studio 2017 Community Edition)
 3. Compilation of libcorto libraries, utilities and decoders for Unity
-4. Using KenShape we created three simple 3D meshes which were then compressed with the short utility
+4. Using KenShape we created three simple 3D meshes which were then compressed with the corto utility
 5. Creation of the "Plugins" folder in which to insert "corticodec_unity.dll" (the other versions (linux, macosx, etc ..) will be needed to make it cross-platform)
 6. Creation of the "StreamingAssets" folder where to insert the .corto files
 7. Modification of the original scripts that used Resource.Load of Unity and in the new versions with loaded the different .corto files, we preferred to use "Streaming Assets" and make a small change: https://github.com/Vytek/UnityCortoSDKTest /blob/762eaa168f3b1f568d8a12b0ff9c25094d4e2b4b/Assets/Scripts/CortoMeshLoader.cs#L14
